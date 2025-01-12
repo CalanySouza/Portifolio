@@ -1,4 +1,5 @@
 @charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 :root {
   --cor0: #5457BB;
   --cor1: #595A91;
@@ -11,6 +12,21 @@
   padding: 0px;
   margin: 0px;
 }
+header > h1 { 
+padding: 20px;
+}
+header > h2 {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
 body {
   background-image: linear-gradient(to right, var(--cor4), var(--cor5));
 }
+h1{ 
+  font-family: "Jersey 15" , serif;
+  font-weight: normal;
+}
+h2{ 
+  font-family: "Jersey 15" , serif;
+  font-weight: normal;
+} 
