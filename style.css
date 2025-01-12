@@ -1,0 +1,16 @@
+@charset "UFT-8";
+:root {
+  --cor0: #5457BB;
+  --cor1: #595A91;
+  --cor2: #5a5ff5;
+  --cor3: #505066;
+  --cor4: #33333C;
+  --cor5: #1b1b33;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+}
