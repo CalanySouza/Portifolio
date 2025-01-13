@@ -1,32 +1,58 @@
 @charset "UFT-8";
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
 :root {
-  --cor0: #5457BB;
-  --cor1: #595A91;
+  --cor0: #5457bb;
+  --cor1: #595a91;
   --cor2: #5a5ff5;
   --cor3: #505066;
-  --cor4: #33333C;
+  --cor4: #33333c;
   --cor5: #1b1b33;
 }
 * {
   padding: 0px;
   margin: 0px;
 }
-header > h1 { 
-padding: 20px;
+header {
+  background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+  text-align: center;
+  box-shadow:  5px 5px 5px black;
+}
+header > h1 {
+  margin-left: 50px;
+  font-size: 80px;
+  color: white;
+  text-shadow: #5457bb;
+  padding: 20px;
 }
 header > h2 {
+  color: #5a5ff5;
+  font-size: 75px;
   padding-left: 40px;
   padding-bottom: 20px;
 }
 body {
-  background-image: linear-gradient(to right, var(--cor4), var(--cor5));
 }
-h1{ 
-  font-family: "Jersey 15" , serif;
+h1 {
+  font-family: "Jersey 15", serif;
   font-weight: normal;
 }
-h2{ 
-  font-family: "Jersey 15" , serif;
+h2 {
+  font-family: "Jersey 15", serif;
   font-weight: normal;
-} 
+}
+nav {
+  text-align: end;
+  padding: 50px;
+}
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-size: 25px;
+  transition-duration: 0.75s;
+}
+a:hover {
+  text-decoration: underline #33333c;
+  background-color: #5a5ff5;
+  border-radius: 10px;
+}
