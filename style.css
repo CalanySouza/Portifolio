@@ -12,10 +12,13 @@
   padding: 0px;
   margin: 0px;
 }
+body {
+  background-image: 100vh;
+}
 header {
   background-image: linear-gradient(to right, var(--cor4), var(--cor5));
   text-align: center;
-  box-shadow:  5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
 header > h1 {
   margin-left: 50px;
@@ -32,11 +35,11 @@ header > h2 {
 }
 body {
 }
-h1 {
+header h1 {
   font-family: "Jersey 15", serif;
   font-weight: normal;
 }
-h2 {
+header h2 {
   font-family: "Jersey 15", serif;
   font-weight: normal;
 }
@@ -55,4 +58,24 @@ a:hover {
   text-decoration: underline #33333c;
   background-color: #5a5ff5;
   border-radius: 10px;
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #5457bb;
+  width: 50%;
+  margin-top: 10px;
+}
+section h2 {
+  font-variant: small-caps;
+  font-size: 50px;
+  color: #e2e2e2;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+section p {
+  font-size: 2em;
+  padding: 20px;
+  color: white;
 }
