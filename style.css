@@ -9,8 +9,12 @@
   --cor5: #1b1b33;
 }
 * {
+  margin: auto;
   padding: 0px;
   margin: 0px;
+}
+html {
+     scroll-behavior: smooth;
 }
 body {
   background-image: 100vh;
@@ -34,6 +38,7 @@ header > h2 {
   padding-bottom: 20px;
 }
 body {
+
 }
 header h1 {
   font-family: "Jersey 15", serif;
@@ -44,7 +49,7 @@ header h2 {
   font-weight: normal;
 }
 nav {
-  text-align: end;
+  text-align: center;
   padding: 50px;
 }
 nav a {
@@ -52,7 +57,7 @@ nav a {
   padding: 15px;
   color: white;
   font-size: 25px;
-  transition-duration: 0.75s;
+  transition-duration: 0.58s;
 }
 a:hover {
   text-decoration: underline #33333c;
@@ -73,9 +78,37 @@ section h2 {
   text-align: center;
   padding-left: 25px;
   padding-top: 30px;
+  margin: auto;
 }
 section p {
-  font-size: 2em;
+  text-indent: 25px;
+  text-align: justify;
+  font-size: 1.3em;
+  padding: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section > img {
+  height: 50vh;
+  width: 50vw;
+}
+#image {
+  border: 5px solid rgba(0, 0, 0, 0.626);
+  margin-top: 50px;
+}
+main {
+  display: flex;
+}
+footer{
+  margin-top: 10px;
   padding: 20px;
+ background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+ box-shadow: -5px -5px 5px black;
+}
+footer > h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
   color: white;
 }
+
