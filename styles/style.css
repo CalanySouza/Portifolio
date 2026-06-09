@@ -62,11 +62,10 @@ a:hover {
   border-radius: 10px;
 }
 section {
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
   background-color: #5457bb;
   width: 50%;
-  margin-top: 10px;
 }
 section h2 {
   font-variant: small-caps;
@@ -78,6 +77,7 @@ section h2 {
   margin: auto;
 }
 section p {
+  margin-left: 20px;
   text-indent: 25px;
   text-align: justify;
   font-size: 1.3em;
@@ -91,23 +91,44 @@ section > img {
 }
 #image {
   border: 5px solid rgba(0, 0, 0, 0.626);
-  margin-top: 50px;
+  margin-top: 100px;
+  width: 570px;
 }
 main {
+  margin: 10px 0px 10px 0px;
+  box-shadow: 2px -1px 2px black;
+  border-radius: 1px 1px 1px 1px;
   display: flex;
 }
 footer {
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 8px;
+  padding: 5px;
   background-image: linear-gradient(to right, var(--cor4), var(--cor5));
-  box-shadow: -5px -5px 5px black;
+  box-shadow: -5px -3px 3px rgb(0, 0, 0);
 }
 footer > h2 {
-  font-size: 40px;
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+#skills {
+  margin: 5px 0px 5px 0px;
+  background-color: #5a5ff5;
+  box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.77);
+  border-radius: 1px 1px 1px 1px;
+  padding-bottom: 10px;
+}
+#skills > h2 {
+  font-size: 28px;
   text-align: center;
   padding: 10px;
   color: white;
 }
-#skills > img {
-  height: 5px;
+#skills > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
