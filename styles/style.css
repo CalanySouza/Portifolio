@@ -5,8 +5,8 @@
   --cor1: #595a91;
   --cor2: #5a5ff5;
   --cor3: #505066;
-  --cor4: #33333c;
-  --cor5: #1b1b33;
+  --cor4: #1a1a1f;
+  --cor5: #000000;
 }
 * {
   margin: auto;
@@ -15,12 +15,13 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: #33333c;
 }
 body {
   background-image: 100vh;
 }
 header {
-  background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+  background-image: linear-gradient(to left, var(--cor4), var(--cor5));
   text-align: center;
   box-shadow: 5px 5px 5px black;
 }
@@ -52,19 +53,20 @@ nav {
 nav a {
   text-decoration: none;
   padding: 15px;
-  color: white;
+  color: rgb(181, 179, 179);
   font-size: 21px;
-  transition-duration: 0.58s;
+  transition: box-shadow 0.3s ease;
 }
 a:hover {
-  text-decoration: underline #33333c;
-  background-color: #5a5ff5;
-  border-radius: 10px;
+  border-color: #5457bb;
+  box-shadow:
+    0 0 0 1px #fffdfd,
+    0 0 16px rgba(255, 255, 255, 0.35);
 }
 section {
   padding-top: 25px;
   padding-bottom: 50px;
-  background-color: #5457bb;
+  background-color: #000000;
   width: 50%;
 }
 section h2 {
@@ -82,15 +84,15 @@ section p {
   text-align: justify;
   font-size: 17px;
   padding: 15px;
-  color: white;
+  color: rgb(98, 98, 98);
   font-family: Arial, Helvetica, sans-serif;
 }
 section > img {
+  padding: 30px;
   height: 50vh;
   width: 50vw;
 }
 #image {
-  border: 5px solid rgba(0, 0, 0, 0.626);
   margin-top: 40px;
   width: 570px;
 }
@@ -100,21 +102,9 @@ main {
   border-radius: 1px 1px 1px 1px;
   display: flex;
 }
-footer {
-  margin-top: 8px;
-  padding: 5px;
-  background-image: linear-gradient(to right, var(--cor4), var(--cor5));
-  box-shadow: -5px -3px 3px rgb(0, 0, 0);
-}
-footer > h2 {
-  font-size: 35px;
-  text-align: center;
-  padding: 5px;
-  color: white;
-}
 #skills {
   margin: 5px 0px 5px 0px;
-  background-color: #5a5ff5;
+  background-color: #000000;
   box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.77);
   border-radius: 1px 1px 1px 1px;
   padding-bottom: 10px;
@@ -123,7 +113,7 @@ footer > h2 {
   font-size: 28px;
   text-align: center;
   padding: 10px;
-  color: white;
+  color: #e2e2e2;
 }
 #skills > p {
   font-family: Arial, Helvetica, sans-serif;
@@ -131,4 +121,28 @@ footer > h2 {
   color: white;
   text-align: center;
   padding: 5px;
+}
+footer {
+  margin-top: 8px;
+  padding: 5px;
+  background-color: black;
+  box-shadow: -5px -3px 3px rgb(0, 0, 0);
+}
+footer > h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+#home {
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  font-size: 25px;
+}
+#home:hover {
+  transition-duration: 1.5s;
+}
+#rede {
+  text-align: center;
 }
