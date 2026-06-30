@@ -164,7 +164,7 @@ footer > h2 {
 
 /* CARD */
 .card {
-  background-color: #161b22;
+  background-color: #0d1014;
   border: 1px solid #2a313c;
   border-radius: 12px;
   overflow: hidden;
@@ -180,14 +180,17 @@ footer > h2 {
 
 /* THUMB */
 .card-thumb {
-  height: 140px;
-  background-color: #1d232c;
+  height: 250px;
+  background-color: #000000;
   border-bottom: 1px solid #2a313c;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-size: 40px;
   object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #2a313c;
 }
 
 /* BODY */
@@ -217,7 +220,7 @@ footer > h2 {
 }
 
 .card-tags span {
-  font-size: 11px;
+  font-size: 13px;
   color: #4fc3f7;
   background-color: rgba(53, 53, 53, 0.08);
   border: 1px solid rgba(254, 254, 254, 0.25);
@@ -229,7 +232,7 @@ footer > h2 {
 .card-links {
   display: flex;
   gap: 14px;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 4px;
 }
 
