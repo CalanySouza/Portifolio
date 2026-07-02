@@ -51,4 +51,27 @@
     overflow: hidden;
   }
 }
-
+@media screen and (min-width: 1200px) {
+    /* MAIN */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  section {
+    width: 50%;
+    overflow: hidden;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+  }
+  section > img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* SKILLS */
+  .skills-grid {
+    max-width: 900px;
+  }
+}
