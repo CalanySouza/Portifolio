@@ -250,7 +250,7 @@ footer {
   padding: 10px;
 }
 .skills-grid {
-  background-color: #f28220c8;
+  background-color: #ff8419f9;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 14px;
