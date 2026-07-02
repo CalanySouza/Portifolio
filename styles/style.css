@@ -168,11 +168,16 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  object-fit: cover;
   width: 100%;
   overflow: hidden;
   border-bottom: 1px solid #2a313c;
-  
+}
+.card-thumb1 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: hidden;
+  background-color: rgb(44, 251, 13);
 }
 /* BODY */
 .card-body {
@@ -240,7 +245,7 @@ footer {
 
 /* GRID DE SKILLS */
 #skills {
- margin: 2px 0px 2px;
+  margin: 2px 0px 2px;
   border-radius: 7px;
   width: 100%;
   display: grid;
@@ -348,7 +353,7 @@ footer {
   border-radius: 4px;
 }
 #contato > h2 {
-padding-bottom: 45px;
+  padding-bottom: 45px;
 }
 #contato > span > a {
   text-decoration: none;
@@ -395,11 +400,16 @@ footer {
   transform: translateY(0);
 }
 #typewriter::after {
-  content: '|';
+  content: "|";
   animation: piscar 0.7s step-end infinite;
 }
 
 @keyframes piscar {
-  0%, 100% { opacity: 1; }
-  50%       { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
