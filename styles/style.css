@@ -1,4 +1,4 @@
-@charset "UFT-8";
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
 :root {
   --cor0: #5457bb;
@@ -23,9 +23,6 @@
 html {
   scroll-behavior: smooth;
   background-color: #33333c;
-}
-body {
-  background-image: 100vh;
 }
 header {
   background-image: linear-gradient(to left, var(--cor4), var(--cor5));
@@ -143,11 +140,10 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
-  max-width: 900px;
   width: 100%;
 }
 
-/* CARD */
+/* CARD1 */
 .card {
   background-color: #0d1014;
   border: 1px solid #2a313c;
@@ -166,18 +162,17 @@ footer {
 /* THUMB */
 .card-thumb {
   height: 250px;
-  background-color: #000000;
+  background-color: #4bf035;
   border-bottom: 1px solid #2a313c;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   font-size: 40px;
   object-fit: cover;
   width: 100%;
   overflow: hidden;
   border-bottom: 1px solid #2a313c;
 }
-
 /* BODY */
 .card-body {
   padding: 20px;
@@ -241,10 +236,11 @@ footer {
 .card-links a:hover::after {
   width: 100%;
 }
+
 /* GRID DE SKILLS */
 #skills {
+ margin: 2px 0px 2px;
   border-radius: 7px;
-  margin: auto;
   width: 100%;
   display: grid;
   place-items: center;
@@ -253,7 +249,7 @@ footer {
   padding: 10px;
 }
 .skills-grid {
-  background-color: #ee872d8f;
+  background-color: #f28220c8;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 14px;
@@ -343,6 +339,7 @@ footer {
   background: linear-gradient(90deg, var(--accent-2), var(--accent));
 }
 #contato {
+  padding: 5px 0px 50px;
   margin: 3px 0px 3px;
   width: 100%;
   text-align: center;
@@ -350,7 +347,7 @@ footer {
   border-radius: 4px;
 }
 #contato > h2 {
-  padding-bottom: 45px;
+padding-bottom: 45px;
 }
 #contato > span > a {
   text-decoration: none;
@@ -395,4 +392,13 @@ footer {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+#typewriter::after {
+  content: '|';
+  animation: piscar 0.7s step-end infinite;
+}
+
+@keyframes piscar {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
 }
