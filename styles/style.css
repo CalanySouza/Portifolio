@@ -243,7 +243,6 @@ footer {
 }
 /* GRID DE SKILLS */
 #skills {
-  padding: 20px;
   border-radius: 7px;
   margin: auto;
   width: 100%;
@@ -344,8 +343,8 @@ footer {
   background: linear-gradient(90deg, var(--accent-2), var(--accent));
 }
 #contato {
-  margin:  3px 0px 3px;
-width: 100%;
+  margin: 3px 0px 3px;
+  width: 100%;
   text-align: center;
   box-shadow: 3px 3px 3px rgb(55, 55, 55);
   border-radius: 4px;
@@ -355,9 +354,9 @@ width: 100%;
 }
 #contato > span > a {
   text-decoration: none;
-padding: 20px;
-font-size: 19px;
-color: rgb(173, 173, 173);
+  padding: 20px;
+  font-size: 19px;
+  color: rgb(173, 173, 173);
 }
 
 footer {
@@ -367,4 +366,33 @@ footer {
   font-family: var(--mono);
   font-size: 12px;
   border-top: 1px solid var(--line);
+}
+#backToTop {
+  font-size: 44px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid #2a313c;
+  background-color: #161b22;
+  color: #f5a623;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
