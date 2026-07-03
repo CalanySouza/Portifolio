@@ -165,7 +165,7 @@ footer {
 /* THUMB */
 .card-thumb {
   height: 250px;
-  background-color: #4bf035;
+  background-color: #4bf03585;
   border-bottom: 1px solid #2a313c;
   display: flex;
   align-items: center;

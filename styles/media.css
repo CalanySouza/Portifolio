@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 603px) {
   header > h1 {
     font-size: 40px;
     margin-left: 0;
@@ -52,12 +52,13 @@
   }
 }
 @media screen and (min-width: 1200px) {
-    /* MAIN */
+  /* MAIN */
   main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     overflow: hidden;
   }
+
   section {
     width: 50%;
     overflow: hidden;
@@ -71,6 +72,8 @@
     height: auto;
   }
   /* SKILLS */
+  #skills {
+  }
   .skills-grid {
     max-width: 900px;
   }
