@@ -166,19 +166,19 @@ footer {
 
 /* THUMB */
 .card-thumb {
-  height: 250px;
-  background-color: #4bf03585;
+  height: 200px;
+  background-color: #00000085;
   border-bottom: 1px solid #2a313c;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  width: 100%;
+  width: 95.5%;
   overflow: hidden;
   border-bottom: 1px solid #2a313c;
 }
 .card-thumb1 img {
-  height: 250px;
+  height: 200px;
   width: 100%;
   display: block;
   object-fit: hidden;
@@ -272,7 +272,7 @@ footer {
   width: 100%;
   padding: 20px;
   border-radius: 30px;
-   background-color: transparent;
+  background-color: transparent;
   border: 1px solid #5a5ff5;
   box-shadow: 0 0 20px rgba(90, 95, 245, 0.2);
   margin-bottom: 30px;
